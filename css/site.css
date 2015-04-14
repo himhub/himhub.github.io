@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 .header {
     background-color:#4183c4;
     height:240px;
