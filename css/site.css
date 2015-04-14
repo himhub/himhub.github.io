@@ -1,6 +1,6 @@
 .header {
     background-color:#4183c4;
-    height:220px;
+    height:240px;
     margin-top:-20px;
 }
 
@@ -21,7 +21,8 @@ h1 {
 .subtitle {
     font-size:16px;
     color:#fff;
-    font-style: italic;   
+    font-style: italic;
+    line-height: 125%;
 }
 
 .tile {
@@ -54,4 +55,24 @@ h4{
 
 a {
    color:#4183c4; 
+}
+
+.menuitem a{
+    font-size:18px;
+    font-weight: bold;
+    padding-right:20px;
+    color:#9cc6e0;
+}
+
+#about {
+    padding-top:20px;
+    max-width:500px;
+    text-align: justify;
+    text-justify: inter-word;    
+}
+
+.standard{
+    font-size:18px;
+    font-family:italic;
+    line-height: 125%;
 }
