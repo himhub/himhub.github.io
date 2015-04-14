@@ -11,7 +11,7 @@ $.ajax({
 });
 
 function constructFeed(entries){
-    var html = '<div class="timetitle">This week</div><div class="row">';
+    var html = '<div class="timetitle">This week</div><div class="nomargin row">';
     var lastWeekFlag = false;
     var beforeFlag = false;
     var today = new Date();
@@ -19,13 +19,13 @@ function constructFeed(entries){
         if(!lastWeekFlag){
             if(new Date(today.getFullYear(), today.getMonth(), today.getDate() - 7)>new Date(e.publishedDate)){
                 lastWeekFlag = true;
-                html = html + '</div><div class="timetitle">Last Week</div><div class="row">';
+                html = html + '</div><div class="timetitle">Last Week</div><div class="nomargin row">';
             }
         }
         if(!beforeFlag){
             if(new Date(today.getFullYear(), today.getMonth(), today.getDate() - 14)>new Date(e.publishedDate)){
                 beforeFlag = true;
-                html = html + '</div><div class="timetitle">Before that</div><div class="row">';
+                html = html + '</div><div class="timetitle">Before that</div><div class="nomargin row">';
             }
         }        
         var img = extractThumbnail(e.content);

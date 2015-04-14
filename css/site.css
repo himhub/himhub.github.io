@@ -1,7 +1,3 @@
-body {
-    overflow-x: hidden;
-}
-
 .header {
     background-color:#4183c4;
     height:240px;
@@ -54,7 +50,9 @@ h4{
     border-bottom-style:solid;
     border-bottom-color:#4183c4;
     border-width:2px;
-    font-style: italic;     
+    font-style: italic;
+    margin-left:15px;
+    margin-right:15px;    
 }
 
 a {
@@ -79,4 +77,9 @@ a {
     font-size:18px;
     font-family:italic;
     line-height: 125%;
+}
+
+.nomargin {
+    margin-left:0px;
+    margin-right:0px;      
 }
