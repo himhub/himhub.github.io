@@ -1,6 +1,6 @@
 $.ajax({
         dataType: 'jsonp',
-        url:'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&output=json&q=http://www.reddit.com/r/humanitarianIM/new/.rss',
+        url:'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=30&output=json&q=http://www.reddit.com/r/HumanitarianIM/new/.rss?limit=50',
         success: function(data){
             console.log(data);
             constructFeed(data.responseData.feed.entries);
