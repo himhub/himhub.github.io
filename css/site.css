@@ -69,13 +69,12 @@ a {
 #about {
     padding-top:20px;
     max-width:500px;
-    text-align: justify;
-    text-justify: inter-word;    
+    text-align: justify;   
 }
 
 .standard{
     font-size:18px;
-    font-family:italic;
+    font-style:italic;
     line-height: 125%;
 }
 
